@@ -2,9 +2,9 @@ import { BookModel, BookRequiredProps } from '@book-co/shared-models';
 import * as uuid from 'uuid';
 import * as BooksApi from '../support/books.api';
 import * as AuthApi from '../support/auth.api';
-import * as BookListComponent from '../support/book-list.component';
-import * as BookFormComponent from '../support/book-form.component';
-import * as BooksPage from '../support/books-page.po';
+import * as BookListComponent from '../support/book-list-component.harness';
+import * as BookFormComponent from '../support/book-form-component.harness';
+import * as BooksPage from '../support/books-page.harness';
 
 describe('Books Page', () => {
   let book: BookModel;

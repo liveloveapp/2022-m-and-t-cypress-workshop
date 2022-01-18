@@ -9,7 +9,7 @@
     "start": "ng serve earnings-app",
     "backend": "nx run earnings-app:backend",
     "build": "ng build",
-    "test": "ng test",
+    "test": "nx e2e earnings-app-e2e",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "affected:apps": "nx affected:apps",

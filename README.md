@@ -39,5 +39,5 @@ The app should now be running at [http://localhost:4200](http://localhost:4200)
 To run the Cypress e2e tests execute the following command from your terminal:
 
 ```sh
-npx nx e2e earnings-app-e2e
+npm run test
 ```
